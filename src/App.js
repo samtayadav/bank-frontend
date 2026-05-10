@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-
-const API = "http://localhost:8000/accounts";
+const API = "https://bank-backend-yopd.onrender.com/accounts";
+//const API = "http://localhost:8000/accounts";
 
 export default function App() {
   const [accounts, setAccounts] = useState([]);
